@@ -1,0 +1,160 @@
+
+/* ------------------------------- */
+/* BODY */
+body {
+    background-color:  white;
+	font-family: verdana,arial;
+	font-size: 100%;
+	margin: 0;
+	margin-top: 0;
+
+}
+
+
+/* ------------------------------- */
+/* HEADER */
+header, footer {
+	background-color: #3F51B5;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	box-shadow: 0px 5px 5px grey;
+}
+
+h1 {
+	color: #FFF;
+}
+
+h3 {
+	color: #C5CAE9;
+}
+
+header img {
+	width: 10em;
+}
+
+
+
+/* ------------------------------- */
+/* NAV */
+nav {
+	background-color: #C5CAE9;
+	border: 1px solid transparent;
+	box-shadow: 0px 1px 10px grey;
+}
+
+nav ul {
+	width: 80%;
+	margin: 20px auto;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	color: #757575;
+	text-decoration: none;
+	position: center;
+}
+
+nav ul li a:hover {
+	background-color: #3F51B5;
+	border-radius: 1em;
+	color: white;
+}
+
+/* ------------------------------- */
+/* SECTION */
+section {
+	width: 80%;
+	margin: auto;
+	padding: 1em;
+	text-align: justify;
+}
+
+/*h2 .material-icons {
+    font-size: 36px;
+}*/
+
+
+section a {
+	color: #3F51B5;
+	text-decoration: none;
+}
+
+section a:hover {
+	color: white;
+	background-color: #3F51B5;
+	border-radius: 0.5em;
+	padding: 2px;
+}
+
+/* ------------------------------- */
+/* FOOTER */
+footer {
+	color: #C5CAE9;
+	box-shadow: 0 -5px 5px grey;
+	position: absolute;
+	bottom: 0;
+	width: 96%;
+}
+
+footer a {
+	padding: 10px;
+	color: #C5CAE9;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #3F51B5;
+	background-color: #C5CAE9;
+	border-radius: 1em;
+}
+
+
+/* ------------------------------- */
+/* VIDEO */
+iframe {
+	background-color: #3F51B5;
+	border-radius: 5px;
+	border: 5px solid #3F51B5;
+	padding: 5px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+/* ------------------------------- */
+/* TABLE */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: white;
+}
+
+
+tr:nth-child(odd) {
+	background-color: #C5CAE9;
+}
+
+tr:hover {
+	background-color: lightyellow;
+}
+
+tr:first-child {
+	background-color: #3F51B5;
+	color: white;
+}
+
+tr.hi {
+	font-weight: bold;
+	background-color: #3F51B5;
+	color: white;
+}
