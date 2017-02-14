@@ -114,23 +114,21 @@ section a:hover {
 
 /* ------------------------------- */
 /* VILLES */
-#Villes ul {
+#Lots ul {
 	list-style-type: none;
 	text-align: center;
 }
 
-#Villes li {
+#Lots li {
 	display: inline-block;
 	box-shadow: 5px 5px 5px lightgrey;
 	border: 1px solid darkgrey;
 	border-radius: 5px;
-	padding: 20px 0;
-	width: 15%;
+	padding: 20px;
 	margin: 10px;
-	font-size: 1.6em;
 }
 
-#Villes li:hover {
+#Lots li:hover {
 	background-color: #3F51B5;
 	color: white;
 }
