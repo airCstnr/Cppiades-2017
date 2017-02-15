@@ -8,6 +8,6 @@ $(function(){
     $('footer')
     	.append('<h4>&copy; <a href="about.html">ASOC 2017</a> - <a href="mailto:raphael.castanier@etu.univ-grenoble-alpes.fr">Raphael Castanier</a></h4>')
     	.append('<a href="#top"><i class="material-icons">arrow_upward</i> Haut de page</a>');
-    $('head')
-    	.append('<meta name="viewport" content="initial-scale=1, width=device-width" />')
+    // $('head')
+    // 	.append('<meta name="viewport" content="initial-scale=1, width=device-width" />')
 });
