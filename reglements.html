@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles+color.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src='nav.js'></script>
+	<script src='head+foot.js'></script>
+	<title>Règlements - CPPiades 2017</title>
+</head>
+
+<body>
+
+<header id="top">
+	<h1>CPPiades 2017</h1>
+	
+</header>
+
+<nav>
+	<ul>
+
+	</ul>
+</nav>
+
+<section id="Règlements">
+	<h2><i class="material-icons m-16">directions_run</i> Règlements</h2>
+	<p>Vous trouverez ici tous les règlements pour les CPPiades, que ce soit pour les sports, les pompoms ou les spectacles! <br>
+	Chaque sport sera représenté par des équipes masculines et féminines.
+	Les points seront attribués selon les règles du tournoi et les résultats seront affichés <a href="resultats.html">ici</a>.
+	</p>
+
+	<p>Sections : </p>
+	<!-- Ajouter les règles CSS pour une liste en box -->
+	<ul>
+		<li><a href="#Tournois">Tournois</a></li>
+		<li><a href="#Rugby">Rugby</a></li>
+		<li><a href="#Basket">Basket</a></li>
+		<li><a href="#Volley">Volley</a></li>
+		<li><a href="#Foot">Foot</a></li>
+		<li><a href="#Hand">Hand</a></li>
+		<li><a href="#Athlétisme">Athlétisme</a></li>
+		<li><a href="#Pompoms">Pompoms</a></li>
+		<li><a href="#Spectacles">Spectacles</a></li>
+	</ul>
+
+</section>
+
+<section id="Tournois">
+	<h2>Tournois</h2>
+
+	<h4>Tirage au sort et Joker</h4>
+
+	<p>
+		Les formats des tournois en fonction du nombre d’équipes et participants ont été élaborés de manière à donner aux équipes la possibilité de se rattraper en cas de défaite. Même si vous perdez un match, rien n’est perdu et vous pouvez vous rattraper ! <br>
+		En début de chaque demi-journée (début de matinée et début d’après-midi) aura lieu le tirage au sort des matchs de poule, à l’exception du cas où seules trois équipes participent au tournoi. <br>
+		Le but étant de réduire les inégalités entre les équipes, chaque ville disposera d’un unique joker pour l’ensemble des CPPiades. Ce joker permettra d’annuler le premier tirage au sort, si ce dernier ne vous convient pas, et de relancer à nouveau le tirage au sort. N’oubliez pas que chaque ville possède un unique joker, ce dernier pourra être précieux et pourra jouer un rôle primordial.
+	</p>
+
+	<div id="cinq_equipes" class="tournois">
+		<h5>Si les cinq équipes participent au tournoi : A / B / C / D / E</h5>
+
+		<h6>Matchs de poule</h6>
+
+		<p>
+			Il y aura cinq matchs de poule : A-B   C-D   A-E   B-C   D-E.
+			Les matchs de poule sont tirés au sort. Le classement des équipes sera fait avec prise en compte du goal average (points marqués – points encaissés).
+		</p>
+
+		<h6>Phases finales</h6>
+
+		<p>
+			<dl>
+				<dt>Demi-finales</dt>
+				<dd> le premier de poule rencontre le quatrième et le deuxième rencontre le troisième.</dd>
+
+				<dt>Petite finale</dt>
+				<dd>les deux perdants des demi-finales se rencontrent pour la troisième place.</dd>
+
+				<dt>Finale</dt>
+				<dd>Les deux vainqueurs des demi-finales se rencontrent.</dd>
+			</dl>
+
+		</p>
+	</div>
+
+	<div id="quatre_equipes" class="tournois">
+		<h5>Si quatre équipes participent au tournoi : A / B / C / D</h5>
+
+		<h6> Pour le hand, le basket, le volley et le foot</h6>
+
+		<ul>
+			<li>Deux matchs de poule, via le tirage au sort.</li>
+			<li>Les deux vainqueurs (1) et (2) se rencontrent et les deux perdants (3) et (4) se rencontrent.</li>
+			<li>Le vainqueur du match entre (1) et (2) se qualifie pour la finale. Le perdant du match entre (3) et (4) termine dernier.</li>
+			<li>Le perdant du match entre (1) et (2) et le vainqueur du match entre (3) et (4) se rencontrent pour une qualification en finale.</li>
+			<li>Finale entre les gagnants</li>
+		</ul>
+
+		<h6>Pour le rugby</h6>
+
+		<ul>
+			<li>Deux matchs de poule, via le tirage au sort.</li>
+			<li>Petite finale : Les deux perdants des matchs de poule se rencontrent pour la troisième place.</li>
+			<li>Finale entre les deux vainqueurs des matchs de poule.</li>
+		</ul>
+	</div>
+
+
+	<div id="trois_equipes" class="tournois">
+		<h5>Si trois équipes participent au tournoi : A / B / C</h5>
+		<p>
+			Toutes les équipes se rencontrent dans une triangulaire et la finale se déroule entre le premier et le deuxième de cette triangulaire.
+		</p>
+	</div>
+</section>
+
+<section>
+	<h2>Pour tous les sports</h2>
+	
+	<p>
+		Les arrêts de jeu font partie du temps de match à l’exception d’arrêts de jeu excessivement longs selon le jugé de l’arbitre. <br>
+		Tous mauvais gestes, non-respect de l’arbitre ou autre sera sanctionné d’une exclusion de 5 minutes. <br>
+	</p>
+</section>
+
+
+
+<section id="Rugby">
+	<h2>Rugby</h2>
+
+		<h4>Points</h4>
+
+		<ul>
+			<li>Victoire : 3 points</li>
+			<li>Match nul : 1 point</li>
+			<li>Défaite : 0 point</li>
+			<li>Goal average : points totaux marqués – points totaux encaissés.</li>
+		</ul>
+
+		<p>En cas d’égalité entre deux équipes lors du classement final, le goal average permettra de départager les équipes en questions.</p>
+
+
+		<h4>Durée des matchs</h4>
+
+		<p>2 fois 15 minutes avec mi-temps de 5 minutes</p>
+
+
+
+		<h4>Rugby Masculin</h4>
+
+		<strong>Les crampons en métal ne sont pas autorisés.</strong>
+		
+		<h5>Points</h5>
+
+		<ul>
+			<li>Un essai vaut 5 points.</li>
+			<li>Une transformation vaut 2 points.</li>
+			<li>Une pénalité ou un drop valent 3 points.</li>
+		</ul>
+
+		<h5>Règles</h5>
+
+		<p>Chaque équipe devra représenter 15 joueurs.</p>
+
+		<h6>Mêlée à 8 joueurs non poussée.</h6>
+
+		<p>
+			La ligne de ¾ doit être à 5 mètres  de la mêlée (à partir des pieds du troisième ligne). <br>
+			La mêlée non poussée correspond juste à un lancement de jeu. <br>
+			A aucun moment les joueurs ne peuvent pousser, sinon, l’équipe sera pénalisée.
+		</p>
+
+		<h6>Touche</h6>
+
+		<p>
+			L'équipe qui bénéficie de la touche et qui la remet en jeu choisit le nombre de joueurs dans l’alignement. <br>
+			Le premier joueur de l’alignement est au minimum à 5 mètres du talonneur (lanceur). <br>
+			L’écart entre les deux alignements est d’un mètre. <br>
+			La ligne de ¾  doit être à 10 mètres de l’alignement.
+		</p>
+
+
+
+		<h4>Rugby féminin</h4>
+
+		<p>
+			Le terrain de jeu correspondra à un demi-terrain de rugby. Chaque équipe sera constituée de 7 joueuses.
+		</p>
+
+		<h5>Points</h5>
+
+		<ul>
+			<li>Un essai vaut 1 points.</li>
+		</ul>
+
+		<h5>Règles</h5>
+
+		<p>
+		Mêlée à 3 joueuses non poussée. <br>
+		Touche non liftée (non portée).
+		</p>
+
+</section>
+
+<section id="Basket">
+	<h2>Basket</h2>
+
+	<h4>Points</h4>
+
+	<p>
+		Panier : 2 points si le joueur est  dans la zone de panier à 2 points ou 3 points s’il est dans la zone de panier à 3 points.
+	</p>
+	
+
+	<h4>Durée des matchs</h4>
+
+	<p>
+		Durée des matchs : 2 fois 10 minutes. <br>
+		Durée mi-temps : 5 minutes.
+		Il n’y a pas de temps morts entre les mi-temps. <br>
+	</p>
+	
+	<h4>Règles</h4>
+
+	5 joueurs par équipes. <br>
+	Lancement de la partie à l’aide d’un entre deux. <br>
+	« marcher » : deux pas au plus. <br>
+	<br>
+	<strong>Lancers francs</strong> : Si la faute s’est produite dans la zone des 2 points dans une action de tir au panier, le joueur dispose de 2 lancers francs. Si la faute s’est produite dans la zone des 3 points dans une action de tir au panier, le joueur dispose de 3 lancers francs. Si, lors de la faute, le tir a été réussi, ce dernier est accordé et le joueur n'a alors droit qu'à un lancer franc supplémentaire. Lors de la séance de lancers francs, cinq joueurs en plus du tireur (au total 6 joueurs en comptant le tireur, cf photo) se placent de part et d'autre de la raquette. Les quatre joueurs restants (2 de chaque équipe)  doivent se trouver derrière la ligne à trois points au moment des lancers francs. Les autres, dont le tireur, se disputent le rebond éventuel du dernier lancer franc de la série et le jeu reprend. <br>
+	<br>
+	Lorsqu’un joueur effectue plus de trois fautes (inclus) dans une action de tir, il sera expulsé pour une durée de 3 minutes.
+	</p>
+
+</section>
+
+<section id="Volley">
+	<h2>Volley</h2>
+
+	<h4>Points</h4>
+
+
+	<h4>Durée des matchs</h4>
+
+	<p>
+		Durée des matchs : 2 ou 3 sets : <br>
+		-2 sets si une des deux équipes remporte les deux premiers sets. <br>
+		-3 sets si les deux équipes ont remporté chacun un set. <br>
+	</p>
+	
+
+	<h4>Règles</h4>
+
+	<p>
+		Sets :
+		<ul>
+			<li>Un set se joue en 15 points.</li>
+			<li>Le set est remporté avec au moins deux points d’écarts. Par exemple, un set peut se terminer sur un score de (17-15).</li>
+			<li>Durée séparant deux sets : 2 minutes.</li>
+
+		</ul>
+
+	<p>
+		Frappes de balle :
+		<ul>
+			<li>On peut frapper la balle avec toutes les parties du corps  (y compris le  pied,  sauf au service).</li>
+			<li>3 touches successives maximum par équipe. </li>
+			<li>Le contre n’est pas compté comme une touche.</li>
+			<li>La balle doit être frappée : Frappe = 1 contact bref.</li>
+			<li>Le collé (La balle est poussée et non frappée) constitue une faute et donc un point pour l’équipe adverse.</li>
+		</ul>
+
+	<p>
+		Service :
+		<ul>
+			<li>L’équipe qui commence au service a été désignée par tirage au sort.</li>
+			<li>Le serveur peut servir sur toute la largeur du terrain.</li>
+			<li>Il doit être derrière la ligne de fond, sans marcher dessus avant la  frappe.</li>
+			<li>Le service peut toucher le filet et un service ne peut pas être contré.</li>
+			<li>Les joueurs tournent au service  dans le sens des aiguilles d’une montre.</li>
+		</ul>
+	
+
+	<p>
+		Au filet :
+		Les différentes fautes au filet sont:
+		<ol>
+			<li>Prendre la balle chez l’adversaire avant qu’il ne la touche. Un joueur touche le ballon ou un adversaire dans l'espace adverse avant ou pendant la frappe d'attaque.</li>
+			<li>Gêner le joueur adverse au-dessus ou au-dessous du filet.</li>
+			<li>Gêner l'adversaire en pénétrant dans l'espace adverse sous le filet.</li>
+			<li>Un pied d'un joueur pénètre complètement dans le camp adverse.</li>
+			<li>Toucher le filet.</li>
+			<li>Prendre appui sur le filet.</li>
+		</ol>
+	</p>
+
+	<p>
+	Ce qui est autorisé :
+	<ul>
+		<li>En attaque, le joueur peut passer la main chez l’adversaire après la frappe.</li>
+		<li>Au contre, le joueur peut contrer chez l’adversaire s’il touche le ballon après l’attaquant.</li>
+	</ul>
+
+	<p>
+		Les limites du terrain : Les lignes de touche font parties du terrain, c’est-à-dire que si le ballon touche la ligne de touche le point est accordé.
+	</p>
+</section>
+
+<section id="Foot">
+	<h2>Foot</h2>
+
+	<h4>Foot Féminin </h4>
+	<p>
+	Foot à 7 joueuses par équipe. La longueur du terrain correspondra à la largeur d’un terrain de foot. <br>
+	Victoire : 3 points <br>
+	Prise en compte du goal average pour les phases de poule (buts marqués-buts encaissés) : le nombre de buts marqués et encaissés sont pris en compte pour chaque équipe, tout match confondu afin de les démarquer en cas d’égalité. <br>
+	Match nul : 1 point <br>
+	Défaite : 0 point <br>
+	Durée des matchs : 2 mi-temps de 12 minutes. <br>
+	Mi-temps : 5 minutes. <br>
+	Les crampons en métal ne sont pas autorisés. <br>
+	</p>
+
+	<p>
+	<h5>Règles : </h5>
+	-7 joueurs par équipe (1 gardien et 6 joueurs de champ). <br>
+	-Le hors-jeu : Un joueur est jugé hors-jeu s’il est plus près de la ligne de but adverse qu’à la fois le ballon et les deux derniers défenseurs. <br>
+	L’attaquant placé devant le gardien de but en position de hors-jeu sera sanctionné même s’il n’est pas l’auteur de la frappe ou s’il ne touche pas le ballon dans la mesure où il gêne le gardien de but et lui masque sa visibilité. <br>
+	-Le gardien ne peut toucher le ballon avec les mains uniquement s’il se trouve dans la surface de réparation. S’il ne respecte pas cette règle, un coup franc sera accordé à l’équipe adverse. <br>
+	-Penalty : Le joueur se situe à 11 mètres face au gardien, et doit attendre le coup de sifflet de l’arbitre pour tirer. Les autres joueurs de champ doivent se trouver derrière la surface de réparation. <br>
+	-Le match se termine à la fin du temps réglementaire (pas de temps supplémentaire à l’exception d’arrêt de jeu excessivement long selon le jugé de l’arbitre). <br>
+	-Tout mauvais geste ou action de jeu dangereuse sera sanctionnée d’une exclusion temporaire de 5 minutes. <br>
+	</p>
+
+
+	<h4>Foot masculin </h4>
+	<p>
+	Foot à 11 joueurs par équipe. <br>
+	Victoire : 3 points <br>
+	Match nul : 1 point <br>
+	Défaite : 0 point <br>
+	Prise en compte du goal average pour les phases de poule (buts marqués-buts encaissés) : le nombre de buts marqués et encaissés sont pris en compte pour chaque équipe, tout match confondu afin de les démarquer en cas d’égalité à la fin des phases de poule. <br>
+	Durée des matchs : 2 mi-temps de 15 minutes. <br>
+	Mi-temps : 5 minutes. <br>
+	Les crampons en métal ne sont pas autorisés. <br>
+	</p>
+		
+	<h5>Règles </h5>
+	<p>
+	-11 joueurs par équipe (1 gardien et 10 joueurs de champ). <br>
+	-Le hors-jeu : Un joueur est jugé hors-jeu s’il est plus près de la ligne de but adverse qu’à la fois le ballon et les deux derniers défenseurs. L’attaquant placé devant le gardien de but en position de hors-jeu sera sanctionné même s’il n’est pas l’auteur de la frappe ou s’il ne touche pas le ballon dans la mesure où il gêne le gardien de but et lui masque sa visibilité. <br>
+	-Le gardien ne peut toucher le ballon avec les mains uniquement s’il se trouve dans la surface de réparation. S’il ne respecte pas cette règle, un coup franc sera accordé à l’équipe adverse. <br>
+	-Penalty : Le joueur se situe à 11 mètres face au gardien, et doit attendre le coup de sifflet de l’arbitre pour tirer. Les autres joueurs de champ doivent se trouver derrière la surface de réparation. <br>
+	-Le match se termine à la fin du temps réglementaire (pas de temps supplémentaire à l’exception d’arrêt de jeu excessivement long selon le jugé de l’arbitre). <br>
+	-Tout mauvais geste ou action de jeu dangereuse sera sanctionnée d’une exclusion temporaire de 5 minutes. <br>		
+	</p>
+</section>
+
+<section id="Hand">
+	<h2>Hand</h2>
+
+	<h4>Points</h4>
+
+	<p>
+	Victoire : 3 points <br>
+	Match nul : 1 point <br>
+	Défaite : 0 point <br>
+	</p>
+	
+	<p>
+	Prise en compte du goal average pour les phases de poule (buts marqués-buts encaissés) : le nombre de buts marqués et encaissés sont pris en compte pour chaque équipe, tout match confondu afin de les démarquer en cas d’égalité à la fin des phases de poule.
+	</p>
+
+	<h4>Durée des matchs</h4>
+
+	<p>
+	Durée des matchs : 2 mi-temps de 10 minutes. <br>
+	Mi-temps : 5 minutes. <br>
+	Les arrêts de jeu suite à une faute ne sont pas pris en compte, sauf si l’arbitre considère que l’arrêt de jeu dure trop longtemps et risque de pénaliser l’équipe adverse.
+	</p>
+
+	<strong>La colle n’est pas autorisée.</strong> <br>
+
+	<h4>Règles </h4>
+
+	-7 joueurs par équipe (6 joueurs de champ et un gardien). <br>
+	-Toucher la balle avec le pied est une faute sauf si c'est l'adversaire qui dirige la balle vers le pied. Le "pied" commence sous le genou. <br>
+	-Pour marquer un but, il faut que la balle ait franchi entièrement la ligne de but. <br>
+	-Le tireur ne peut pas prendre appui sur la surface de but (ligne comprise). Sinon il y a empiétement sanctionné par un renvoi (ballon rendu à l’équipe adverse). Il y a aussi renvoi si l’attaquant récupère la balle en contact avec la surface de but. <br>
+	Par contre il peut tirer en suspension au-dessus de cette surface, s’il a pris son appel en dehors et s’il lâche la balle avant de retoucher le sol. <br>
+	-Marcher : Le joueur peut effectuer au plus trois pas sans réaliser aucun dribble. <br>
+	-Reprise de dribble sanctionné par un jet franc. <br>
+	-Si l'attaquant percute directement un défenseur qui ne recherchait pas ce contact, il y a percussion ("passage en force") sanctionnée par un jet franc. <br>
+	-Ce que peut faire le défenseur : Il peut entrer en contact avec l'adversaire de face, bras pliés, pour l'accompagner, le contrôler. <br>
+	-Ce que ne peut pas faire le défenseur : le défenseur ne peut pas se jeter sur l'attaquant, ni l'empêcher d'évoluer en ceinturant, frappant, crochetant ou attrapant le maillot. Ces fautes pourront entraîner des sanctions allant du simple jet franc à une expulsion temporaire de 5 minutes si l’arbitre considère que le joueur en question a effectué un nombre trop important de fautes. <br>
+	-Le gardien peut arrêter la balle avec le pied, dans sa surface, dans un souci défensif, tant qu'elle se dirige vers sa ligne de but. Toute frappe avec le pied dans une autre situation est considérée comme une faute. <br>
+	-Lorsque la balle sort par-dessus la ligne de sortie de but  du fait d'un attaquant ou détournée par le gardien, la balle est rendu à l’équipe qui défend. Lorsque celle-ci sort par-dessus la ligne de sortie de but et a été touchée en dernier par un défenseur (pas le gardien), la balle est rendue à l’équipe qui attaque par une remise en jeu par le coin (cf photo ci-dessous). <br>
+	-Tout penalty s'effectue derrière la ligne des 7m, un pied au moins (n'importe lequel) étant au sol. La ligne ne peut être touchée ou dépassée, les deux pieds ne doivent pas être décollés en même temps, tant que la balle n'a pas quitté la main du tireur.  Aucun autre joueur ne peut pénétrer dans les 9m. <br>
+	Les défenseurs sont à 3m de la ligne de penalty. Le gardien ne peut dépasser la limite de montée sur penalty. Ainsi il reste à 3m minimum du tireur. <br>
+	</p>
+</section>
+
+
+
+<section id="Athlétisme">
+	<h2>Athlétisme</h2>
+
+	<p>
+	Pour le départ, les commandements seront « A vos marques, prêt, clap de départ ». L'ensemble des coureurs n'a droit qu'à un seul faux départ. Au premier faux départ personne n'est éliminé, à partir du deuxième, chaque athlète qui commet un faux départ est éliminé.
+	</p>
+
+	<h4>Disciplines</h4>
+
+	<ul>
+		<li>Relais mixte 8×250 mètres (4 hommes et 4 femmes par équipe).</li>
+		<li>Saut en longueur homme (1 pour chaque ville).</li>
+		<li>Saut en longueur femme (1 pour chaque ville).</li>
+		<li>Course à éliminations homme (2 personnes de chaque ville au départ, 2 tours d’échauffement avec un ouvreur puis début des tours à élimination: 1 élimination par tour de 250m )</li>
+		<li>Course à éliminations femme (2 personnes de chaque ville au départ, 2 tours d’échauffement avec un ouvreur puis début des tours à élimination: 1 élimination par tour de 250m)</li>
+	</ul>
+
+	<h4>Points</h4>
+
+	<p>
+	On comptera les points de façon indépendantes dans chaque épreuve avant de faire la somme total de points obtenus pour chaque ville pour déterminer le classement général pour l’épreuve global d’athlétisme.
+	</p>
+
+	<p>Pour le relais : <br>
+	1ère place : 10 points <br>
+	2ème place : 7 points <br>
+	3ème place : 5 points <br>
+	4ème place : 3 points <br>
+	5ème place : 1 point  (l’important c’est de participer !!) <br>
+	</p>
+
+	<p>Pour les autres épreuves : <br>
+	1ère place : 5 points <br>
+	2ème place : 3 points <br>
+	3ème place : 2 points <br>
+	4ème place : 1 point <br>
+	5ème place : 0 point <br>
+	</p>
+</section>
+
+<section id="Pompoms">
+	<h2>Pompoms</h2>
+
+	<p>
+		Les règles du jeu pour les pompoms seront disponibles prochainement.
+	</p>
+</section>
+
+<section id="Spectacles">
+	<h2>Spectacles</h2>
+
+	<p>
+		Les critères artistiques et scénographiques sont en cours de construction. <br>
+		Les responsables des spectacles pour chaque ville sont priés de contacter l'ASOC par son <a href="https://www.facebook.com/ASOC-Grenoble-1711324192455318/">profil facebook</a> pour mettre en place les spectacles.
+	</p>
+</section>
+
+
+<footer>
+
+</footer>
+
+</body>
+
+</html>

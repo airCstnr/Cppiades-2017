@@ -171,7 +171,7 @@ iframe {
 /* LOGOS PARTENAIRES */
 #logos section {
 	border: 1px solid grey;
-	border-radius: 10px;
+	border-radius: 15px;
 	margin: 10px auto;
 	text-align: center;
 	background-color: white;
@@ -183,7 +183,7 @@ iframe {
 	vertical-align: top;
 	text-align: center;
 	border: 1px solid grey;
-	border-radius: 5px;
+	border-radius: 10px;
 	min-height: 300px;
 	margin: 20px;
 	background-color: white;
@@ -192,5 +192,6 @@ iframe {
 
 #logos img {
 	margin: 5px;
+	border-radius: 5px;
 }
 
