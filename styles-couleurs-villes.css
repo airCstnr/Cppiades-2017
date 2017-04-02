@@ -1,0 +1,25 @@
+
+
+/* ------------------------------- */
+/* COULEURS VILLES */
+.grenoble {
+    color: yellow;
+    text-shadow: 1px 1px  grey;
+}
+
+.toulouse {
+    color: red;
+}
+
+.bordeaux {
+    color: #7B1FA2;
+}
+
+.nancy {
+    color: #0288D1;
+}
+
+.valence {
+    color: green;
+}
+
