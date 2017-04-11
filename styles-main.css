@@ -18,7 +18,7 @@ header, footer {
 	padding: 20px;
 	position: relative;
 	text-align: center;
-	box-shadow: 0px 5px 5px grey;
+	/*box-shadow: 0px 5px 5px grey;*/
 }
 
 h1 {
@@ -39,13 +39,13 @@ header img {
 /* NAV */
 nav {
 	background-color: #C5CAE9;
-	border: 1px solid transparent;
-	box-shadow: 0px 1px 10px grey;
+	/*border: 1px solid transparent;*/
+	/*box-shadow: 0px 1px 10px grey;*/
 }
 
 nav ul {
-	width: 80%;
-	margin: 20px auto;
+	/*width: 80%;*/
+	margin: 0 auto;
 	list-style-type: none;
 	text-align: center;
 }
@@ -55,16 +55,17 @@ nav ul li {
 }
 
 nav ul li a {
+	/*border: 1px solid red;*/
 	display: inline-block;
-	padding: 10px;
-	color: #757575;
+	padding: 20px;
+	color: #505050;
 	text-decoration: none;
 	position: center;
 }
 
 nav ul li a:hover {
 	background-color: #3F51B5;
-	border-radius: 1em;
+	/*border-radius: 1em;*/
 	color: white;
 }
 
@@ -94,7 +95,7 @@ section a:hover {
 /* FOOTER */
 footer {
 	color: #C5CAE9;
-	box-shadow: 0 -10px 20px grey;
+	/*box-shadow: 0 -10px 20px grey;*/
 }
 
 footer a {
