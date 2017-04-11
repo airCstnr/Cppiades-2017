@@ -80,13 +80,14 @@ iframe {
 	border-radius: 10px;
 	min-height: 300px;
 	margin: 20px;
-	background-color: white;
+	background-color: inherit;
 	box-shadow: 2px 2px 5px lightgrey;
 }
 
 #logos img {
 	margin: 5px;
-	border-radius: 5px;
+	border-radius: 8px;
+	background-color: white;
 }
 
 /* ------------------------------- */
