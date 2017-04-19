@@ -14,8 +14,7 @@ $(function(){
     
     var url = document.URL;
 	var filename = url.substring(url.lastIndexOf('/')+1);
-    if (filename==null) { console.log('filename == null'); filename='index.html';}
-    console.log(filename);
+    if (filename=='') { filename='index.html';}
 	var nav = document.getElementsByTagName("nav");
     var lien = nav[0].getElementsByClassName(filename);
 	lien[0].className = "active_nav";

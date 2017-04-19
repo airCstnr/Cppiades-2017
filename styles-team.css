@@ -1,0 +1,28 @@
+
+/* ------------------------------- */
+/* TEAM STAFF */
+#staff {
+	text-align: center;
+}
+
+.user img {
+	width: 200px;
+	height: 200px;
+}
+
+.user {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin: 20px;
+	box-shadow: 2px 2px 5px lightgrey;
+	margin: 5px;
+	border-radius: 8px;
+}
+
+.user:hover {
+	background-color: #3F51B5;
+	color: white;
+}
