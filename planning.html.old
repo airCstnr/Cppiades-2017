@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="styles-main.css">
+	<link rel="stylesheet" type="text/css" href="styles-opt.css">
+	<link rel="stylesheet" type="text/css" href="styles-couleurs-villes.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src='nav.js'></script>
+	<script src='head+foot.js'></script>
+	<title>Planning - CPPiades 2017</title>
+</head>
+
+<body>
+
+<header id="top">
+	<h1>CPPiades 2017</h1>
+	
+</header>
+
+<nav>
+	<ul>
+		
+	</ul>
+</nav>
+
+<section id="Planning">
+	<h2><i class="material-icons">date_range</i> Planning</h2>
+	<p>Vous trouverez ici le planning de l'événement. Il est suceptible d'etre modifié sans préavis. Tout se déroulera du lundi 26 juin au mercredi 28 juin 2017 sur le campus de Grenoble.</p>
+
+	<ul>
+		<li>
+			<strong>Lundi 26 juin :</strong>
+			<ul>
+				<li>Départ des cars de toutes les villes à minuit</li>
+				<li>Arrivée des cars sur le campus vers 8h</li>
+				<li>Petit déjeuner offert par l'ASOC</li>
+				<li>Distribution des packs ambiance</li>
+				<li>Validation des inscriptions</li>
+				<li>Défilé vers les gymnases et échauffement des sportifs</li>
+				<li><strong>Volley H/F</strong></li>
+				<li>Repas sur place (panier repas fourni)</li>
+				<li><strong>Rugby F et Handball H</strong></li>
+				<li>Distribution des clés de chambres et préparation à la soirée</li>
+				<li>Repas au RU</li>
+				<li><strong>Soirée avec spectacles de Toulouse et Valence</strong></li>
+				<li>Animation de la soirée par le Club Mix de Grenoble INP</li>
+				<li>Retours en cars aux résidences</li>
+			</ul>
+		</li>
+		<li>
+			<strong>Mardi 27 juin :</strong>
+			<ul>
+				<li>Petit déjeuner et échauffement des sportifs</li>
+				<li><strong>Foot F et Basket H</strong></li>
+				<li>Repas sur place (panier repas fourni)</li>
+				<li><strong>Rugby H et Handball F</strong></li>
+				<li>Repas au RU</li>
+				<li><strong>Soirée avec spectacles de Nancy et Bordeaux</strong></li>
+				<li>Animation de la soirée par le Club Mix de Grenoble INP</li>
+				<li>Retours en cars aux résidences</li>
+			</ul>
+		</li>
+		<li>
+			<strong>Mercredi 28 juin :</strong>
+			<ul>
+				<li>Petit déjeuner et échauffement sportifs</li>
+				<li><strong>Basket F et Foot H</strong></li>
+				<li>Repas sur place (panier repas fourni)</li>
+				<li><strong>Athlétisme sur piste</strong></li>
+				<li><strong>Pompom</strong></li>
+				<li>Repas (fourni)</li>
+				<li><strong>Soirée avec spectacle de Grenoble</strong></li>
+				<li><strong>Remise des prix</strong></li>
+				<li>Retour en car de toutes les villes</li>
+			</ul>
+		</li>
+	</ul>
+</section>
+
+<footer>
+	
+</footer>
+
+</body>
+
+</html>
