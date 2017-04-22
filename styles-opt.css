@@ -92,37 +92,78 @@ iframe {
 
 /* ------------------------------- */
 /* RESULTATS TOMBOLA */
-table {
+#Résultats table {
 	width: 100%;
 	border-collapse: collapse;
 	text-align: center;
 }
 
-tr:nth-child(even) {
+#Résultats tr:nth-child(even) {
 	background-color: inherit;
 }
 
 
-tr:nth-child(odd) {
+#Résultats tr:nth-child(odd) {
 	background-color: #C5CAE9;
 }
 
-tr:hover {
+#Résultats tr:hover {
 	background-color: lightyellow;
 }
 
-tr:first-child {
+#Résultats tr:first-child {
 	background-color: #3F51B5;
 	color: white;
 }
 
-tr.hi {
+#Résultats tr.hi {
 	font-weight: bold;
 	background-color: #3F51B5;
 	color: white;
 }
 
+/* ------------------------------- */
+/* TABLEAU PLANNING */
+#Planning table {
+	border: 5px solid #3F51B5;
+	border-radius: 15px;
+	text-align: center;
+	background-color: inherit;
+	box-shadow: 5px 5px 5px lightgrey;
+	width: 100%;
+	border-collapse: collapse;
+}
 
+#Planning tr:nth-child(even) {
+	background-color: inherit;
+}
+
+#Planning tr:nth-child(odd) {
+	background-color: #C5CAE9;
+}
+
+#Planning tr:first-child {
+	background-color: #3F51B5;
+	color: white;
+}
+
+#Planning th {
+	padding: 15px;
+	font-size: 20px;
+}
+
+#Planning td {
+	padding: 10px;
+	border-right: 1px solid grey;
+}
+
+#Planning td:last-child {
+	border-right: none;
+}
+
+#Planning ul {
+	list-style-type: none;
+}
 
 
 
