@@ -211,3 +211,40 @@ iframe {
 	padding: 10px;
 	margin: 10px auto;
 }
+
+/* ------------------------------- */
+/* TABLEAU NOTATION POMPOM */
+#Notation table {
+	border: 1px solid grey;
+	background-color: inherit;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#Notation tr:nth-child(even) {
+	background-color: inherit;
+}
+
+#Notation tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+
+#Notation tr:first-child {
+	background-color: grey;
+	color: white;
+}
+
+#Notation th {
+	padding: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#Notation td {
+	padding: 10px;
+	border-left: 1px solid grey;
+}
+
+#Notation ul {
+	list-style-type: none;
+}
