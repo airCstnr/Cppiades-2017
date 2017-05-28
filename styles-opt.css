@@ -60,6 +60,32 @@ iframe {
 }
 
 
+/* ------------------------------- */
+/* ACTUALITÉS */
+.actu:nth-child(even) {
+	background-color: inherit;
+}
+
+.actu:nth-child(odd) {
+	background-color: #C5CAE9;
+}
+
+.actu {
+	border-radius: 5px 10px 10px 5px;
+	border: 1px solid lightgrey;
+	padding: 20px;
+	margin: 20px;
+}
+
+input[type=text], input[type=password], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
 
 /* ------------------------------- */
 /* LOGOS PARTENAIRES */

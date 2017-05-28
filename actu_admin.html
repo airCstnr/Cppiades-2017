@@ -13,7 +13,7 @@
 	<script type="text/javascript" src='nav.js'></script>
 	<script type="text/javascript" src='head+foot.js'></script>
 	<script type="text/javascript" src='actu.js'></script>
-	<title>Actualités - CPPiades 2017</title>
+	<title>Actu Admin - CPPiades 2017</title>
 </head>
 
 <body onload="init()">
@@ -28,6 +28,19 @@
 
 	</ul>
 </nav>
+
+<section>
+	<h2><i class="material-icons">textsms</i> Ajout d'une nouvelle actualité</h2>
+	<form action="nouvelle_actu.php" method="POST">
+		Titre :<br>
+		<input type="text" name="titre" id="titre" tabindex="1" required> <br>
+		Message : <br>
+		<textarea rows="4" cols="50" id="message" name="message" tabindex="2" required></textarea><br>
+		Mot de passe :<br>
+		<input type="password" name="mdp" id="mdp" tabindex="3" required> <br><br>
+		<input type="button" onclick="nouvelle_actu()" name="valider" value="Valider" tabindex="4">
+	</form>
+</section>
 
 <section id="Actualites">
 	<h2><i class="material-icons m-16">fiber_new</i> Actualités</h2>
