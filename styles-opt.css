@@ -77,7 +77,7 @@ iframe {
 	margin: 20px;
 }
 
-input[type=text], input[type=password], textarea {
+input[type=text], input[type=password], input[type=number], textarea, select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -122,6 +122,11 @@ input[type=text], input[type=password], textarea {
 	width: 100%;
 	border-collapse: collapse;
 	text-align: center;
+	border: 2px solid #3F51B5;
+}
+
+#Résultats th, #Résultats td {
+	padding: 10px;
 }
 
 #Résultats tr:nth-child(even) {
@@ -144,8 +149,7 @@ input[type=text], input[type=password], textarea {
 
 #Résultats tr.hi {
 	font-weight: bold;
-	background-color: #3F51B5;
-	color: white;
+	background-color: yellow;
 }
 
 /* ------------------------------- */
