@@ -1,10 +1,18 @@
 
+/*
 
+Scripts de traitement de la tombola
 
-// ensemble de toutes les lignes
+*/
+
+// ----------------------------
+// Variables globales
+// ----------------------------
+
+// ensemble de touts les gagnants
 var base = [];
 
-// objet gagnant
+// objet personne gagnante
 function gagnant(numero, nom, prenom, ville, lot) {
     this.numero = numero;
     this.nom = nom;
@@ -14,6 +22,9 @@ function gagnant(numero, nom, prenom, ville, lot) {
 }
 
 
+// ----------------------------------
+// Ouverture du tableau de résultats
+// ---------------------------------
 
 function ouvrir_base() {
 	// ajouter les personnes existantes dans la base
@@ -32,8 +43,6 @@ function ajax_json(callback) {
 }
 
 function remplir_tableau(json) {
-	console.log(remplir_tableau);
-	console.log(json);
 	var i = 0;
 	for (pers of json) {
 		addLine(pers, i);
@@ -42,39 +51,10 @@ function remplir_tableau(json) {
 	}
 }
 
-function enregistrer_base() {
-	// enregistrer la base
-	// vérifier mot de passe
-	var mdp = prompt("Mot de passe");
 
-	var xhr=new XMLHttpRequest();
-	xhr.onreadystatechange = function() {
-		if ((xhr.readyState==4) && (xhr.status == 200)) {
-
-			// réponse du script vérifMDP.php
-			var retour = xhr.responseText;
-			if (retour==1)
-			{
-				console.log("MDP OK");
-				ajax_post_request(console.log, "enregistrer_tombola.php", true, JSON.stringify(base));
-			}
-			else if (retour==0)
-			{
-				alert("Mauvais mot de passe");
-			}
-			else
-			{
-				alert("Erreur");
-			}
-
-		}
-	};
-	xhr.open("POST","verifMDP.php",true);
-	xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-	xhr.send("data="+mdp);
-}
-
-
+// ----------------------------------
+// Ajouter des résultats
+// ---------------------------------
 
 function nouveau_gagnant() {
 	var	form = document.getElementsByTagName('form')[0];
@@ -106,32 +86,5 @@ function addLine(personne, id) {
 	lot.innerHTML = personne.lot;
 	ligne.appendChild(lot);
 
-	var fermer = document.createElement('button');
-	fermer.setAttribute('class', 'bouton');
-	fermer.setAttribute('onclick', 'removeLine('+id+')');
-	fermer.innerHTML = 'Supprimer',
-	ligne.appendChild(fermer);
-
 	table.appendChild(ligne);
 }
-
-function removeLine(numero) {
-	// supprime la ligne du bouton sélectionné
-	var ligne = document.getElementById(numero);
-	ligne.parentNode.removeChild(ligne);
-}
-
-
-// ----------- AJAX ---------------
-function ajax_post_request (callback,url,async,data) {
-	var xhr=new XMLHttpRequest();
-	xhr.onreadystatechange = function() {
-		if ((xhr.readyState==4) && (xhr.status == 200)) {
-			callback(xhr.responseText);
-		}
-	};
-	xhr.open("POST",url,async);
-	xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-	xhr.send("data="+data);
-}
-
