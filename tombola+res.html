@@ -17,7 +17,7 @@
 	<title>Tombola - CPPiades 2017</title>
 </head>
 
-<body>
+<body onload="ouvrir_base()">
 
 <header id="top">
 	<h1>CPPiades 2017</h1>
@@ -41,19 +41,14 @@
 			<th>Ville</th>
 			<th>Lot</th>
 		</tr>
-		<!-- <tr>
-			<td>1234</td>
-			<td>Castanier</td>
-			<td>Raphael</td>
-			<td>Grenoble</td>
-			<td>Gros Lot</td>
-		</tr> -->
+
 	</table>
 </section>
 
 <section>
 	<h2><i class="material-icons">help</i> Ajouter un résultat</h2>
-	<button id="myBtn" class="bouton">Ajouter un résultat</button>
+	<button id="ajouter" class="bouton">Ajouter un résultat</button> <br><br>
+	<button id="enregistrer" class="bouton" onclick="enregistrer_base()">Enregistrer</button>
 </section>
 
 
@@ -99,6 +94,8 @@
 
 .bouton {
 	padding: 5px 20px;
+	margin: 5px;
+	display: inline-block;
 }
 
 	/* The Modal (background) */
@@ -117,6 +114,7 @@
 
 /* Modal Content/Box */
 .modal-content {
+    border-radius: 10px;
     background-color: #fefefe;
     margin: 5% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -146,7 +144,7 @@
 var modal = document.getElementById('myModal');
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("ajouter");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];

@@ -77,6 +77,13 @@ iframe {
 	margin: 20px;
 }
 
+.bouton {
+	padding: 5px 20px;
+}
+
+
+/* ------------------------------- */
+/* FORMULAIRES */
 input[type=text], input[type=password], input[type=number], textarea, select {
     width: 100%;
     padding: 12px 20px;
@@ -84,8 +91,8 @@ input[type=text], input[type=password], input[type=number], textarea, select {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 5px;
 }
-
 
 /* ------------------------------- */
 /* LOGOS PARTENAIRES */
@@ -234,7 +241,6 @@ input[type=text], input[type=password], input[type=number], textarea, select {
 
 /* ------------------------------- */
 /* RÈGLEMENTS */
-
 .tournois {
 	border: 1px solid grey;
 	border-radius: 15px;

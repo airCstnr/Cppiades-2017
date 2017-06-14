@@ -38,7 +38,8 @@ function verifMDP(retour) {
 
 function ajout(json) {
 	var titre = encodeURI(document.getElementById('titre').value);
-	var message = encodeURI(document.getElementById('message').value);
+	var message = document.getElementById('message').value;
+	message = encodeURI(message.replace(/(?:\r\n|\r|\n)/g, '<br/>'));
 	var new_actu = {"titre":titre, "message":message};
 	json.push(JSON.stringify(new_actu));
 	ajax_post_request(console.log, "nouvelle_actu.php", true, JSON.stringify(json));
