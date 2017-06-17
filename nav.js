@@ -7,6 +7,7 @@ $(function(){
     ul.append('<li><a class="partenaires.html" href="partenaires.html">Partenaires</a></li>');
     ul.append('<li><a class="tombola.html" href="tombola.html">Tombola</a></li>');
     ul.append('<li><a class="planning.html" href="planning.html">Planning</a></li>');
+    ul.append('<li><a class="map.html" href="map.html">Carte</a></li>');
     ul.append('<li><a class="reglements.html" href="reglements.html">Règlements</a></li>');
     ul.append('<li><a class="resultats.html" href="resultats.html">Résultats</a></li>');
     ul.append('<li><a class="faq.html" href="faq.html">FAQ</a></li>');

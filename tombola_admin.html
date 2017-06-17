@@ -34,8 +34,17 @@
 	<h2><i class="material-icons">confirmation_number</i> Résultats</h2>
 	<p>Les résultats de la tombola seront affichés ici.</p>
 	<table>
-		<tr>
-			<th>Numéro Ticket</th>
+		<tr class="head">
+			<th></th>
+			<th colspan="2">Gagnant</th>
+			<th colspan="2">Vendeur</th>
+			<th></th>
+			<th></th>
+		</tr>
+		<tr class="head">
+			<th>Numéro</th>
+			<th>Nom</th>
+			<th>Prénom</th>
 			<th>Nom</th>
 			<th>Prénom</th>
 			<th>Ville</th>
@@ -63,8 +72,10 @@
     <h4 style="text-align: center">Ajouter un résultat</h4>
     <form>
     	Numéro : <input type="number" name="numero" required=""> <br>
-    	Nom : <input type="text" name="nom" required=""><br>
-    	Prénom : <input type="text" name="prenom" required=""><br>
+    	Nom Gagnant  : <input type="text" name="nomG" required=""><br>
+    	Prénom Gagnant : <input type="text" name="prenomG" required=""><br>
+    	Nom Vendeur  : <input type="text" name="nomV" required=""><br>
+    	Prénom Vendeur : <input type="text" name="prenomV" required=""><br>
     	Ville : <select name="ville">
 		    		<option value="Grenoble">Grenoble</option>
 		    		<option value="Toulouse">Toulouse</option>

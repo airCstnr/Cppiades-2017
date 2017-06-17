@@ -149,15 +149,21 @@ input[type=text], input[type=password], input[type=number], textarea, select {
 	background-color: lightyellow;
 }
 
-#Résultats tr:first-child {
+#Résultats th {
 	background-color: #3F51B5;
 	color: white;
 }
 
+#Résultats td:nth-child(odd) {
+	border-right: 1px solid grey;
+}
+
+/*
 #Résultats tr.hi {
 	font-weight: bold;
 	background-color: yellow;
 }
+*/
 
 /* ------------------------------- */
 /* TABLEAU PLANNING */
@@ -184,14 +190,19 @@ input[type=text], input[type=password], input[type=number], textarea, select {
 	color: white;
 }
 
+#Planning tr.demiJournee td {
+	padding: 50px;
+}
+
 #Planning th {
 	padding: 15px;
 	font-size: 20px;
 }
 
 #Planning td {
-	padding: 10px;
+	padding: 5px;
 	border-right: 1px solid grey;
+	/*border: 1px solid red;*/
 }
 
 #Planning td:last-child {
