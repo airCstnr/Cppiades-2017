@@ -190,19 +190,22 @@ input[type=text], input[type=password], input[type=number], textarea, select {
 	color: white;
 }
 
-#Planning tr.demiJournee td {
-	padding: 50px;
-}
-
 #Planning th {
 	padding: 15px;
 	font-size: 20px;
 }
 
+#Planning tr.demiJournee td {
+	padding: 50px 0px;
+}
+
 #Planning td {
 	padding: 5px;
 	border-right: 1px solid grey;
-	/*border: 1px solid red;*/
+}
+
+#Planning td:first-child {
+	padding: 0;
 }
 
 #Planning td:last-child {
