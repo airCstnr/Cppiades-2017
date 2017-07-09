@@ -33,7 +33,7 @@ function nouvelle_actu() {
 
 function verifMDP(retour) {
 	// si le mot de passe est bon, on ajoute la nouvelle actu au fichier
-	retour==1 ? ajax_json(ajout) : console.log("ERREUR : mauvais mot de passe")
+	retour==1 ? ajax_json(ajout) : alert("ERREUR : mauvais mot de passe")
 }
 
 function ajout(json) {

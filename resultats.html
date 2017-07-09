@@ -7,15 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="styles-opt.css">
 	<link rel="stylesheet" type="text/css" href="styles-couleurs-villes.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+	  rel="stylesheet">
 	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src='nav.js'></script>
 	<script src='head+foot.js'></script>
+	<script src='scores.js'></script>
 	<title>Résultats - CPPiades 2017</title>
 </head>
 
-<body>
+<body onload="total()">
 
 <header id="top">
 	<h1>CPPiades 2017</h1>
@@ -30,9 +31,8 @@
 
 <section id="Résultats">
 	<h2><i class="material-icons m-16">star_border</i> Résultats</h2>
-	<p>Vous trouverez ici tous les résultats des CPPiades en direct chaque jour!</p>
 	<p>Nous mettrons les informations concernant chaque ville et chaque discipline notée : </p>
-	<ul>
+	<ul class="liste_boites">
 		<li>foot</li>
 		<li>rugby</li>
 		<li>volley</li>
@@ -45,6 +45,107 @@
 		<li>ambiance</li>
 		<li>CPPIADES!!!</li>
 	</ul>
+
+	<table id="Tableau_Res_CPPiades" style="display:none">
+		<tbody>
+			<tr>
+				<th></th>
+				<th>Toulouse</th>
+				<th>Grenoble</th>
+				<th>Nancy</th>
+				<th>Bordeaux</th>
+				<th>Valence</th>
+			</tr>
+			<tr>
+				<th>Foot</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Rugby</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Volley</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Hand</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Athlé</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Basket</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>PomPom</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Spectacle</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Fair-Play</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Ambiance</th>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Total</th>
+				<th>0</th>
+				<th>0</th>
+				<th>0</th>
+				<th>0</th>
+				<th>0</th>
+			</tr>
+		</tbody>
+	</table>
 </section>
 
 <footer>

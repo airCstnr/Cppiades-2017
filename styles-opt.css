@@ -7,7 +7,7 @@
 
 /* ------------------------------- */
 /* VIDEO ET ULULE */
-iframe {
+iframe, #Trophées img, #Bienvenue img {
 	background-color: #3F51B5;
 	border-radius: 5px;
 	border: 5px solid #3F51B5;
@@ -225,11 +225,11 @@ input[type=text], input[type=password], input[type=number], textarea, select {
 	text-align: center;
 }
 
-#Règlements li {
+#Règlements li, #Résultats li {
 	display: inline-block;
 }
 
-#Règlements li a {
+#Règlements li a, #Résultats li {
 	display: inline-block;
 	box-shadow: 5px 5px 5px lightgrey;
 	border: 1px solid darkgrey;
@@ -247,7 +247,7 @@ input[type=text], input[type=password], input[type=number], textarea, select {
 	border-radius: 5px;
 }
 
-#Lots li:hover, .liste_boites a:hover {
+#Lots li:hover, .liste_boites a:hover, #Résultats li:hover {
 	background-color: #3F51B5;
 	color: white;
 }
@@ -263,38 +263,65 @@ input[type=text], input[type=password], input[type=number], textarea, select {
 }
 
 /* ------------------------------- */
-/* TABLEAU NOTATION POMPOM */
-#Notation table {
+/* TABLEAU NOTATION POMPOM et SPECTACLES */
+.Notation table {
 	border: 1px solid grey;
 	background-color: inherit;
 	width: 100%;
 	border-collapse: collapse;
 }
 
-#Notation tr:nth-child(even) {
+.Notation tr:nth-child(even) {
 	background-color: inherit;
 }
 
-#Notation tr:nth-child(odd) {
+.Notation tr:nth-child(odd) {
 	background-color: lightgrey;
 }
 
-#Notation tr:first-child {
+.Notation tr:first-child {
 	background-color: grey;
 	color: white;
 }
 
-#Notation th {
+.Notation th {
 	padding: 15px;
 	font-weight: bold;
 	text-align: center;
+	border-bottom: 1px solid grey;
 }
 
-#Notation td {
+.Notation td {
 	padding: 10px;
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.Notation ul {
+	list-style-type: none;
+}
+
+
+/* ------------------------------- */
+/* RÉSULTATS CPPIADES */
+#Tableau_Res_CPPiades td {
 	border-left: 1px solid grey;
 }
 
-#Notation ul {
-	list-style-type: none;
+/* ------------------------------- */
+/* FAQ */
+
+#Plaquette {
+	text-align: center;
+}
+
+#Plaquette a {
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	box-shadow: 5px 5px 5px lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
 }
