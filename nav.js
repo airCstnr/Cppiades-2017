@@ -3,7 +3,7 @@
 $(function(){
     var ul = $('ul').first();
     ul.append('<li><a class="index.html" href="index.html">Accueil</a></li>');
-    ul.append('<li><a class="actu.html" href="actu.html">Actualités</a></li>');
+    /*ul.append('<li><a class="actu.html" href="actu.html">Actualités</a></li>');*/
     ul.append('<li><a class="partenaires.html" href="partenaires.html">Partenaires</a></li>');
     ul.append('<li><a class="tombola.html" href="tombola.html">Tombola</a></li>');
     ul.append('<li><a class="planning.html" href="planning.html">Planning</a></li>');
